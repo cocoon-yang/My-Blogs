@@ -1,7 +1,7 @@
 # AutoLisp Notes
 Blogs
 
-Syntax of block[tutorialspoint] is 
+Syntax of block [tutorialspoint][tutorialspoint] is 
 
 ```
 (block block-name(
@@ -16,7 +16,7 @@ Syntax of block[tutorialspoint] is
 
 ## References
 
-[draftsperson]: (http://draftsperson.net/index.php?title=AutoLISP_Lesson_1_-_Introduction_to_Lisp_Programming "draftsperson")
+[draftsperson]: http://draftsperson.net/index.php?title=AutoLISP_Lesson_1_-_Introduction_to_Lisp_Programming "draftsperson"
 
 [tutorialspoint]: https://www.tutorialspoint.com/lisp/index.htm "tutorialspoint"
 
