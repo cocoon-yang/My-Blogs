@@ -1,0 +1,2 @@
+# VisualLisp Notes
+Blogs
