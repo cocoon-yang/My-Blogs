@@ -1,7 +1,18 @@
 # AutoLisp Notes
 Blogs
 
+Syntax of block[tutorialspoint] is 
 
-##References
+(```)
+(block block-name(
+...
+...
+))
+(```)
 
-[] http://draftsperson.net/index.php?title=AutoLISP_Lesson_1_-_Introduction_to_Lisp_Programming
+
+
+## References
+
+[draftsperson] (http://draftsperson.net/index.php?title=AutoLISP_Lesson_1_-_Introduction_to_Lisp_Programming)
+[tutorialspoint] (https://www.tutorialspoint.com/lisp/index.htm)
