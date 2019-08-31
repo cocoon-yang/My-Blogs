@@ -1,7 +1,7 @@
 # AutoLisp Notes
 Blogs
 
-Syntax of block [tutorialspoint][tutorialspoint] is 
+Syntax of block [[tutorialspoint][tutorialspoint]] is 
 
 ```
 (block block-name(
