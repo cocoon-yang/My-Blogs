@@ -29,9 +29,23 @@ Accessing entry of a list
 (nth 3 myList) ; return 3
 ```
 
+```
+(member 'c' (a b c d e)) ; returns (c d e).
+```
+
+
 Lists Functions 
 ```
 (append '(1 2 3) '(4 5 6)) ; return '(1 2 3 4 5 6)
+```
+
+
+## String
+
+String methods
+
+```
+(strcat "H" "ello"); returns "Hello"
 ```
 
 ## Looping Functions
@@ -50,13 +64,24 @@ Lists Functions
 ```
 
 
-
+The syntax of repeat statement
 ```
 repeat (repeat number exp ...)
 ```
-
+The syntax of while statement
 ```
 while (repeat number exp ...)
+```
+
+The syntax of do statement
+```
+(do ((variable1    value1   updated-value1)
+      (variable2   value2   updated-value2)
+      (variable3   value3   updated-value3)
+   ...)
+   (test return-value)
+   (s-expressions)
+)
 ```
 
 
