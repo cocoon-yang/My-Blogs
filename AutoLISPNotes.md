@@ -142,7 +142,8 @@ Global Text Height Change [[AutoLisp Start]]
 )
 ```
 
-[More AutoLISP examples[Examples]]
+ More AutoLISP [examples] 
+ 
 ## References
 
 [draftsperson]: http://draftsperson.net/index.php?title=AutoLISP_Lesson_1_-_Introduction_to_Lisp_Programming "draftsperson"
@@ -151,4 +152,4 @@ Global Text Height Change [[AutoLisp Start]]
 
 [AutoLisp Start]: https://www.cadtutor.net/tutorials/autolisp/quick-start.php
 
-[Examples]: http://www.lee-mac.com/programs.html
+[examples]: http://www.lee-mac.com/programs.html
