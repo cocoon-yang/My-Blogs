@@ -44,6 +44,10 @@ Lists Functions
 ```
 
 ```
+(length '(a b c d)) ; returns 4.
+```
+
+```
 (apply '+ (23 12 -10)) ;Returns 25
 ```
 
@@ -92,8 +96,35 @@ The syntax of do statement
 ```
 
 
+## Examples
+
+Change Layer[AutoLisp Start]
+```
+(defun c:chlayer (/ a1 a2 n index b1 b2 d1 d2 b3)
+(graphscr)
+(prompt "\nselect entities to be changed: ")
+(setq a1 (ssget))
+(prompt "\npoint to entity on target layer: ")
+(setq a2 (entsel))
+(setq n (sslength a1))
+(setq index 0)
+(setq b2 (entget (car a2)))
+(setq d2 (assoc 8 b2))
+(repeat n
+(setq b1 (entget (ssname a1 index)))
+(setq d1 (assoc 8 b1))
+(setq b3 (subst d2 d1 b1))
+(entmod b3)
+(setq index (+ index 1))
+)
+(princ)
+)
+```
+
 ## References
 
 [draftsperson]: http://draftsperson.net/index.php?title=AutoLISP_Lesson_1_-_Introduction_to_Lisp_Programming "draftsperson"
 
-[tutorialspoint]: https://www.tutorialspoint.com/lisp/index.htm "tutorialspoint"
+[tutorialspoint]: https://www.tutorialspoint.com/lisp/index.htm "tutorialspoint" 
+
+[AutoLisp Start]: https://www.cadtutor.net/tutorials/autolisp/quick-start.php
