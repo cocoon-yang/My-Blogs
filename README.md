@@ -1,9 +1,9 @@
 # My Blogs
 
 
-[AutoLISP Notes [AutoLISP]] 
+[AutoLISP Notes]
 
 
 
 
-[AutoLISP]: https://github.com/cocoon-yang/My-Blogs/blob/master/AutoLISPNotes.md
+[AutoLISP Notes]: https://github.com/cocoon-yang/My-Blogs/blob/master/AutoLISPNotes.md
