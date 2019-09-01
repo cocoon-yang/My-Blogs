@@ -23,22 +23,29 @@ Single dimensional list construction
 Accessing entry of a list 
 
 ```
-(cdr myList) ; return 1 
+(car myList) ; return 1 
 (cadr myList) ; return 2
 (caddr myList) ; return 3
-(nth 3 myList) ; return 3
+(nth 3 myList) ; return 3 
+(cdr myList) ; Returns '(2 3 4 5 6)
 ```
 
 ```
 (member 'c' (a b c d e)) ; returns (c d e).
 ```
 
+```
+(foreach n ans_list (strcase n))
+```
 
 Lists Functions 
 ```
 (append '(1 2 3) '(4 5 6)) ; return '(1 2 3 4 5 6)
 ```
 
+```
+(apply '+ (23 12 -10)) ;Returns 25
+```
 
 ## String
 
